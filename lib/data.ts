@@ -83,7 +83,7 @@ export const skills: SkillCategory[] = [
 
 export const socialLinks = {
   linkedin: "https://www.linkedin.com/in/suraphojb/",
-  github: "https://github.com/suraphoj",
+  github: "https://github.com/suraphojb",
   email: "sboonyayoi27@gsb.columbia.edu",
   resume: "/resume.pdf",
 }
