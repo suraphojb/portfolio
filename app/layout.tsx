@@ -74,6 +74,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Todd Boonyayoi", url: SITE_URL }],
   creator: "Todd Boonyayoi",
   robots: { index: true, follow: true },
+  verification: { google: "Iu6cl8WVK0CUp1rKYKb4wb1znQGmSpxesJb4sh_uQKE" },
   alternates: { canonical: SITE_URL },
   openGraph: {
     type: "website",
