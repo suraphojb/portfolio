@@ -47,6 +47,7 @@ export function Contact() {
             >
               GitHub ↗
             </a>
+            {/* Resume link — uncomment when resume.pdf is ready
             <span className="text-zinc-200 dark:text-zinc-700">·</span>
             <a
               href={socialLinks.resume}
@@ -56,6 +57,7 @@ export function Contact() {
             >
               Resume ↓
             </a>
+            */}
           </div>
 
         </AnimatedSection>

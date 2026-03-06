@@ -4,7 +4,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
 import { ThemeToggle } from "@/components/ui/ThemeToggle"
-import { socialLinks } from "@/lib/data"
+// import { socialLinks } from "@/lib/data" // uncomment when resume is ready
 
 const navLinks = [
   { href: "/#about", label: "About" },
@@ -62,6 +62,7 @@ export function Navbar() {
           {/* Right side: theme toggle + resume button */}
           <div className="hidden md:flex items-center gap-3">
             <ThemeToggle />
+            {/* Resume button — uncomment when resume.pdf is ready
             <a
               href={socialLinks.resume}
               target="_blank"
@@ -70,6 +71,7 @@ export function Navbar() {
             >
               Resume ↓
             </a>
+            */}
           </div>
 
           {/* Mobile: theme toggle + hamburger */}
@@ -103,6 +105,7 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
+          {/* Mobile resume button — uncomment when resume.pdf is ready
           <a
             href={socialLinks.resume}
             target="_blank"
@@ -111,6 +114,7 @@ export function Navbar() {
           >
             Resume ↓
           </a>
+          */}
         </div>
       </div>
     </header>

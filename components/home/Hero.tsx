@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { socialLinks } from "@/lib/data"
+// import { socialLinks } from "@/lib/data" // uncomment when resume is ready
 
 const container = {
   hidden: {},
@@ -61,6 +61,7 @@ export function Hero() {
               View My Work
               <span aria-hidden="true">→</span>
             </Link>
+            {/* Resume download — uncomment when resume.pdf is ready
             <a
               href={socialLinks.resume}
               target="_blank"
@@ -69,6 +70,7 @@ export function Hero() {
             >
               Download Resume ↓
             </a>
+            */}
           </motion.div>
 
           {/* Social proof */}
