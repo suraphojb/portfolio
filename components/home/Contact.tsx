@@ -14,7 +14,7 @@ export function Contact() {
             Open to opportunities.
           </h2>
           <p className="text-zinc-500 dark:text-zinc-400 leading-relaxed mb-8">
-            Actively recruiting for <strong className="text-zinc-700 dark:text-zinc-300">Summer 2025 internships</strong> and{" "}
+            Actively recruiting for <strong className="text-zinc-700 dark:text-zinc-300">Summer 2026 internships</strong> and{" "}
             <strong className="text-zinc-700 dark:text-zinc-300">full-time roles</strong> in Product Management, Growth, and Strategy.
             Always happy to connect, collaborate, or just talk product.
           </p>
