@@ -20,9 +20,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const data = getBlogPostBySlug(slug)
   if (!data) return {}
+  const { title, description, coverImage } = data.frontmatter
   return {
-    title: data.frontmatter.title,
-    description: data.frontmatter.description,
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      ...(coverImage && { images: [{ url: coverImage, alt: title }] }),
+    },
   }
 }
 

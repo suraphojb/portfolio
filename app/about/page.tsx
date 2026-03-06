@@ -7,6 +7,19 @@ import { experience, socialLinks } from "@/lib/data"
 export const metadata: Metadata = {
   title: "About",
   description: "Thai engineer turned product leader. 7+ years in fintech and blockchain. Now at Columbia Business School, targeting PM and AI Product roles.",
+  keywords: [
+    "Suraphoj Boonyayoi",
+    "Todd Boonyayoi",
+    "Columbia MBA",
+    "Product Manager Thailand",
+    "fintech product manager",
+    "LINE BK product manager",
+  ],
+  openGraph: {
+    title: "About Todd Boonyayoi (Suraphoj Boonyayoi)",
+    description: "Thai engineer turned product leader. 7+ years in fintech and blockchain. Now at Columbia Business School, targeting PM and AI Product roles.",
+    images: [{ url: "/images/profile-2.jpg", alt: "Todd Boonyayoi" }],
+  },
 }
 
 export default function AboutPage() {
